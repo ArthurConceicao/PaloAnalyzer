@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Paloanalyzer"
+             x:Class="Paloanalyzer.MainPage">
+
+    <StackLayout Padding="30" Spacing="30" BackgroundColor="Black">
+
+        <Button Text="Escolher foto" TextColor="#FFF" BackgroundColor="Blue" x:Name="PickPhotoBtn" Clicked="PickPhoto_Clicked"/>
+        <Button Text="Tirar foto" TextColor="#FFF" BackgroundColor="Blue" x:Name="TakePhotoBtn" Clicked="TakePhoto_Clicked"/>
+
+        <Image x:Name="FileImage"/>
+
+        <Button Text="Analisar" TextColor="#FFF" BackgroundColor="Blue" x:Name="RequestAnalyzeBtn" Clicked="RequestAnalyze_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>

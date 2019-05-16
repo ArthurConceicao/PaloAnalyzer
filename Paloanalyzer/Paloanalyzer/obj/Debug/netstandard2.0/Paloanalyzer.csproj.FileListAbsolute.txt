@@ -1,0 +1,12 @@
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\bin\Debug\netstandard2.0\Paloanalyzer.deps.json
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\bin\Debug\netstandard2.0\Paloanalyzer.dll
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\obj\Debug\netstandard2.0\Paloanalyzer.csprojAssemblyReference.cache
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\obj\Debug\netstandard2.0\Paloanalyzer.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\obj\Debug\netstandard2.0\Paloanalyzer.AssemblyInfoInputs.cache
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\obj\Debug\netstandard2.0\Paloanalyzer.AssemblyInfo.cs
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\bin\Debug\netstandard2.0\Paloanalyzer.pdb
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\obj\Debug\netstandard2.0\Paloanalyzer.dll
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\obj\Debug\netstandard2.0\Paloanalyzer.pdb
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer\obj\Debug\netstandard2.0\XamlC.stamp
