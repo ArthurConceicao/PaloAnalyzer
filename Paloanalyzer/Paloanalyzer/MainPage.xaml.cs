@@ -18,12 +18,18 @@ namespace Paloanalyzer
 	{
 
 		private MediaFile _mediaFile;
+        private string _schooling;
 		public MainPage()
 		{
 			InitializeComponent();
 		}
 
-		private async void PickPhoto_Clicked(object sender, EventArgs args)
+        private void pckSchooling_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var pckSchooling = (Picker)sender;
+            _schooling = pckSchooling.Items[pckSchooling.SelectedIndex];
+        }
+        private async void PickPhoto_Clicked(object sender, EventArgs args)
 		{
 			await CrossMedia.Current.Initialize();
 
@@ -72,13 +78,18 @@ namespace Paloanalyzer
 		{
 			var content = new MultipartFormDataContent();
 
+            content.Add(new StringContent(Name.Text), "name");
+            content.Add(new StringContent(Sex.SelectedItem.ToString()), "sex");
+            content.Add(new StringContent(_schooling), "schooling");
+
 			content.Add(new StreamContent(_mediaFile.GetStream()),
 				"\"image\"",
 				$"\"{_mediaFile.Path}\"");
 
 			var httpClient = new HttpClient();
 
-			var uploadServiceBaseAddress = "http://10.0.2.2:8000/api/analyze";
+			//var uploadServiceBaseAddress = "http://10.0.2.2:8000/api/analyze";
+			var uploadServiceBaseAddress = "http://192.168.1.13:8000/api/analyze";
 
 			var httpResponseMessage = await httpClient.PostAsync(uploadServiceBaseAddress, content);
 

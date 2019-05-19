@@ -115,6 +115,7 @@ class MonoPackageManager_Resources {
 		"Newtonsoft.Json.dll",
 		"Paloanalyzer.dll",
 		"Plugin.CurrentActivity.dll",
+		"Plugin.InputKit.dll",
 		"Plugin.Media.dll",
 		"Plugin.Permissions.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",

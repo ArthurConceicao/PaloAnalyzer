@@ -11,7 +11,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.CurrentActivity/2.1.0.2": {
+      "Plugin.CurrentActivity/2.1.0.4": {
         "type": "package",
         "frameworkAssemblies": [
           "Java.Interop"
@@ -438,6 +438,18 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.InputKit/3.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/monoandroid81/Plugin.InputKit.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/Plugin.InputKit.dll": {}
+        }
+      },
       "Paloanalyzer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -445,7 +457,8 @@
           "Newtonsoft.Json": "12.0.2",
           "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Xamarin.Forms": "3.6.0.264807",
+          "Xamarin.Forms.InputKit": "3.0.11"
         },
         "compile": {
           "bin/placeholder/Paloanalyzer.dll": {}
@@ -487,16 +500,16 @@
         "newtonsoft.json.nuspec"
       ]
     },
-    "Plugin.CurrentActivity/2.1.0.2": {
-      "sha512": "uiMbA0G1ulSEj7MtGUQDDhzw80+QgvH5ts+Yt9cyft1dF4Eb0tYxiXAgNPuohJXpxhZmRs+6ZjL6QBaL/wUKDQ==",
+    "Plugin.CurrentActivity/2.1.0.4": {
+      "sha512": "m8xaXvXUzBSqP6xRe5PeIG347WxsG/VWrZta7MnPpSvNuPf0RLB/S49UCCQyBKSsfu053+apvYm14BC7GU6Zzg==",
       "type": "package",
-      "path": "plugin.currentactivity/2.1.0.2",
+      "path": "plugin.currentactivity/2.1.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid44/Plugin.CurrentActivity.dll",
         "lib/monoandroid44/Plugin.CurrentActivity.xml",
-        "plugin.currentactivity.2.1.0.2.nupkg.sha512",
+        "plugin.currentactivity.2.1.0.4.nupkg.sha512",
         "plugin.currentactivity.nuspec",
         "readme.txt"
       ]
@@ -1237,6 +1250,28 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.InputKit/3.0.11": {
+      "sha512": "8bVDIc1wjqiFz73vWUZe3VK5mjBU5QJ+vtUqbMaolbdiZg0AHVuLbGrGO7fU6Xk03d7/K1CNValZKAVa4+1H7Q==",
+      "type": "package",
+      "path": "xamarin.forms.inputkit/3.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid81/Plugin.InputKit.dll",
+        "lib/monoandroid81/Plugin.InputKit.xml",
+        "lib/monoandroid90/Plugin.InputKit.dll",
+        "lib/monoandroid90/Plugin.InputKit.xml",
+        "lib/netstandard1.0/Plugin.InputKit.dll",
+        "lib/netstandard1.0/Plugin.InputKit.xml",
+        "lib/netstandard2.0/Plugin.InputKit.dll",
+        "lib/netstandard2.0/Plugin.InputKit.xml",
+        "lib/xamarin.ios10/Plugin.InputKit.dll",
+        "lib/xamarin.ios10/Plugin.InputKit.xml",
+        "readme.txt",
+        "xamarin.forms.inputkit.3.0.11.nupkg.sha512",
+        "xamarin.forms.inputkit.nuspec"
+      ]
+    },
     "Paloanalyzer/1.0.0": {
       "type": "project",
       "path": "../Paloanalyzer/Paloanalyzer.csproj",
@@ -1247,6 +1282,7 @@
     "MonoAndroid,Version=v8.1": [
       "Newtonsoft.Json >= 12.0.2",
       "Paloanalyzer >= 1.0.0",
+      "Plugin.CurrentActivity >= 2.1.0.4",
       "Xam.Plugin.Media >= 4.0.1.5",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
       "Xamarin.Android.Support.CustomTabs >= 28.0.0.1",
@@ -1256,7 +1292,8 @@
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.1",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.1",
       "Xamarin.Essentials >= 1.0.1",
-      "Xamarin.Forms >= 3.6.0.264807"
+      "Xamarin.Forms >= 3.6.0.264807",
+      "Xamarin.Forms.InputKit >= 3.0.11"
     ]
   },
   "packageFolders": {
@@ -1305,6 +1342,10 @@
             "target": "Package",
             "version": "[12.0.2, )"
           },
+          "Plugin.CurrentActivity": {
+            "target": "Package",
+            "version": "[2.1.0.4, )"
+          },
           "Xam.Plugin.Media": {
             "target": "Package",
             "version": "[4.0.1.5, )"
@@ -1344,6 +1385,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.6.0.264807, )"
+          },
+          "Xamarin.Forms.InputKit": {
+            "target": "Package",
+            "version": "[3.0.11, )"
           }
         }
       }

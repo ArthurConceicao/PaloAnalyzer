@@ -1341,7 +1341,7 @@ int style Animation_AppCompat_Dialog 0x7f0d00a6
 int style Animation_AppCompat_DropDownUp 0x7f0d00a7
 int style Animation_AppCompat_Tooltip 0x7f0d00a8
 int style Animation_Design_BottomSheetDialog 0x7f0d016e
-int style AppCompatDialogStyle 0x7f0d0191
+int style AppCompatDialogStyle 0x7f0d0192
 int style Base_AlertDialog_AppCompat 0x7f0d00a9
 int style Base_AlertDialog_AppCompat_Light 0x7f0d00aa
 int style Base_Animation_AppCompat_Dialog 0x7f0d00ab
@@ -1509,8 +1509,9 @@ int style Base_Widget_Design_TabLayout 0x7f0d0170
 int style CardView 0x7f0d000b
 int style CardView_Dark 0x7f0d000d
 int style CardView_Light 0x7f0d000e
-int style MainTheme 0x7f0d018f
-int style MainTheme_Base 0x7f0d0190
+int style MainTheme 0x7f0d0190
+int style MainTheme_Base 0x7f0d0191
+int style MyPopupMenu 0x7f0d018f
 int style Platform_AppCompat 0x7f0d002d
 int style Platform_AppCompat_Light 0x7f0d002e
 int style Platform_ThemeOverlay_AppCompat 0x7f0d008e

@@ -2,17 +2,43 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Paloanalyzer"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
              x:Class="Paloanalyzer.MainPage">
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="30" BackgroundColor="White">
 
-    <StackLayout Padding="30" Spacing="30" BackgroundColor="Black">
+            <Label Text="PaloAnalyzer" FontSize="Large" TextColor="Black" />
 
-        <Button Text="Escolher foto" TextColor="#FFF" BackgroundColor="Blue" x:Name="PickPhotoBtn" Clicked="PickPhoto_Clicked"/>
-        <Button Text="Tirar foto" TextColor="#FFF" BackgroundColor="Blue" x:Name="TakePhotoBtn" Clicked="TakePhoto_Clicked"/>
+            <Entry Placeholder="Nome do Participante" x:Name="Name" />
 
-        <Image x:Name="FileImage"/>
+            <Label Text="Sexo" TextColor="Black" />
+            <input:RadioButtonGroupView x:Name="Sex">
+                <input:RadioButton Text="Masculino" Value="male"/>
+                <input:RadioButton Text="Feminino" Value="female"/>
+            </input:RadioButtonGroupView>
 
-        <Button Text="Analisar" TextColor="#FFF" BackgroundColor="Blue" x:Name="RequestAnalyzeBtn" Clicked="RequestAnalyze_Clicked"/>
+            <Picker x:Name="pckSchooling"
+                    HorizontalOptions="FillAndExpand"
+                    Title="Selecione a Escolaridade:"
+                    SelectedIndexChanged="pckSchooling_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>Sem Escolaridade</x:String>
+                    <x:String>Ensino Fundamental Incompleto</x:String>
+                    <x:String>Ensino Fundamental Completo</x:String>
+                    <x:String>Ensino Médio Incompleto</x:String>
+                    <x:String>Ensino Médio Completo</x:String>
+                    <x:String>Ensino Superior Incompleto</x:String>
+                    <x:String>Ensino Superior Completo</x:String>
+                </Picker.Items>
+            </Picker>
 
-    </StackLayout>
+            <Button Text="Escolher foto" TextColor="#FFF" BackgroundColor="#5097FA" x:Name="PickPhotoBtn" Clicked="PickPhoto_Clicked"/>
+            <Button Text="Tirar foto" TextColor="#FFF" BackgroundColor="#5097FA" x:Name="TakePhotoBtn" Clicked="TakePhoto_Clicked"/>
 
+            <Image x:Name="FileImage"/>
+
+            <Button Text="Analisar" TextColor="#FFF" BackgroundColor="#5097FA" x:Name="RequestAnalyzeBtn" Clicked="RequestAnalyze_Clicked"/>
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

@@ -222,8 +222,9 @@ C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\Plugin.Media.dll
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\res\xml\file_paths.xml
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\linksrc\Plugin.InputKit.dll
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\Plugin.InputKit.dll
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\machine.config
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
-C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\res\xml\file_paths.xml
-C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\System.Runtime.dll

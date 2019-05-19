@@ -2,6 +2,7 @@ FormsViewGroup
 Newtonsoft.Json
 Paloanalyzer
 Plugin.CurrentActivity
+Plugin.InputKit
 Plugin.Media
 Plugin.Permissions
 System.Runtime

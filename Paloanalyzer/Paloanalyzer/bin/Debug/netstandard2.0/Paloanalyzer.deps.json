@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "b1e61587068a70580825f62479be799ad7623aaa"
+    "signature": "33c0216f0db4a5ebbb1bccf6da135846e0fa7941"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,7 +13,8 @@
           "Newtonsoft.Json": "12.0.2",
           "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Xamarin.Forms": "3.6.0.264807",
+          "Xamarin.Forms.InputKit": "3.0.11"
         },
         "runtime": {
           "Paloanalyzer.dll": {}
@@ -86,6 +87,17 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Xamarin.Forms.InputKit/3.0.11": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.264807"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.InputKit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -150,6 +162,13 @@
       "sha512": "sha512-T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
       "path": "xamarin.forms/3.6.0.264807",
       "hashPath": "xamarin.forms.3.6.0.264807.nupkg.sha512"
+    },
+    "Xamarin.Forms.InputKit/3.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8bVDIc1wjqiFz73vWUZe3VK5mjBU5QJ+vtUqbMaolbdiZg0AHVuLbGrGO7fU6Xk03d7/K1CNValZKAVa4+1H7Q==",
+      "path": "xamarin.forms.inputkit/3.0.11",
+      "hashPath": "xamarin.forms.inputkit.3.0.11.nupkg.sha512"
     }
   }
 }

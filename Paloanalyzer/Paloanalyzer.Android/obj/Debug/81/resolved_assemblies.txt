@@ -6,6 +6,7 @@ C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\Paloanalyzer.dll
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
+C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\Plugin.InputKit.dll
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\Plugin.Media.dll
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
 C:\Users\Arthur\source\repos\Paloanalyzer\Paloanalyzer\Paloanalyzer.Android\obj\Debug\81\android\assets\System.Core.dll
